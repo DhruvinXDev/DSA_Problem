@@ -1,4 +1,4 @@
-leet code problem 73. set matrix zeroes
+leet code problem number 73. name of the problem is set matrix zeroes
 
 class Solution {
 public:
