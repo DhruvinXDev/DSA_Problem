@@ -1,4 +1,4 @@
-//Palindrome checker 
+//Palindrome Checker 
 
 bool isPalindrome(int x) {
     long int r,n,t=10;
