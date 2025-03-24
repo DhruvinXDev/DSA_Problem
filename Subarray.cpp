@@ -5,7 +5,6 @@ int main ( )
 {
     int arr[5] = {1,2,3,4,5};
     int n = 5;
-
     // the total number of subarray is = n(n+1)/2
     // subarray is continuos part of array
 
