@@ -7,6 +7,7 @@ int main ( )
     int arr[9] = {-2,1,-3,4,-1,2,1,-5,4};
     int max_sum = arr[0];
     int c_sum =0;
+    
     //time cmp is (n ^ 2)
     for(int start=0;start<n;start++)
     {
