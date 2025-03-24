@@ -10,6 +10,7 @@ int main ( )
     // subarray is continuos part of array
 
     // print all subarray of array
+    //time cmp is (n^3)
     for (int start=0;start<n;start++)
     {
         for(int end=start;end<n;end++)
