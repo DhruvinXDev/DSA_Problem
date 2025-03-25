@@ -11,7 +11,7 @@ int main ( )
     int count = 0;
     for(int i =0;i<size;i++)
     {
-        if(count==0) 
+        if(count==0)
             majority_Element = arr.at(i);
         if(ans=arr[i])
             count++;
