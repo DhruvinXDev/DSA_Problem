@@ -9,11 +9,11 @@ int main ( )
     int size = arr.size( );
     int majority_Element =0;
     int count = 0;
-    for(int i =1;i<size;i++)
+    for(int i =0;i<size;i++)
     {
         if(count==0) 
             majority_Element = arr.at(i);
-        if(arr[i]==arr[i-1])
+        if(ans=arr[i])
             count++;
         else
             count--;
