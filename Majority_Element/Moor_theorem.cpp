@@ -13,7 +13,7 @@ int main ( )
     {
         if(count==0)
             majority_Element = arr.at(i);
-        if(ans=arr[i])
+        if(majority_Element=arr[i])
             count++;
         else
             count--;
