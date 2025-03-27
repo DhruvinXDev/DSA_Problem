@@ -16,7 +16,8 @@ int main ( )
     //time cmp is log(n)
     while(end>=start)
     {
-        int mid=(start + end)/2;
+        // int mid=(start + end)/2;
+        int mid= start + (end - start)/2;//optimazation for overflowing the int value
         if(arr[mid]==target)
         {
             cout << arr[mid]<<" find";
