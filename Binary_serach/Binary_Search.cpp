@@ -13,7 +13,8 @@ int main ( )
 
     int start=0;
     int end=size-1;
-    //time cmp is log(n)
+    //time cmp is 0(log(n))
+    //space cmp is o(1)
     while(end>=start)
     {
         // int mid=(start + end)/2;
